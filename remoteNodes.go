@@ -22,14 +22,14 @@ type nodeFeeInfo struct {
 	Amount  float64 `json:"amount"`
 }
 
-const urlFredRemoteNodes = "https://raw.githubusercontent.com/fredenrg/FRED-Nest/master/fred-nodes.json"
+const urlDyngeRemoteNodes = "https://raw.githubusercontent.com/Tarmgas/DYNGE-Nest/master/dynge-nodes.json"
 const apiPointFee = "/fee"
 const apiPointFee2 = "/feeinfo"
 
 func requestListRemoteNodes() (remoteNodes []node) {
 
 	theNodes := new(nodes)
-	err := getJSONFromHTTPRequest(urlFredRemoteNodes, theNodes)
+	err := getJSONFromHTTPRequest(urlDyngeRemoteNodes, theNodes)
 
 	if err != nil {
 

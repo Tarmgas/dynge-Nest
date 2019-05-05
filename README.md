@@ -1,6 +1,6 @@
-# FRED coin Nest
+# Dynge coin Nest
 
-The universal desktop GUI wallet for FRED
+The universal desktop GUI wallet for DYNGE
 
 ![Logo](/turtlecoinnestlogo.png)
 
@@ -10,36 +10,36 @@ The universal desktop GUI wallet for FRED
 
 ### Windows
 
-1. Go [here](https://github.com/fredenrg/FRED-Nest/releases) and download the latest release called **FRED-Nest-x.xx-Windows.zip**
-2. Unzip the folder and launch **FRED-Nest.exe**. (Make sure you leave everything as is in the folder)
+1. Go [here](https://github.com/Tarmgas/dynge-Nest/releases) and download the latest release called **dynge-Nest-x.xx-Windows.zip**
+2. Unzip the folder and launch **dynge-Nest.exe**. (Make sure you leave everything as is in the folder)
 
 Important notes:
 
-* Make sure *FRED-walletd.exe* is not running before you start *FRED-Nest*
+* Make sure *dynge-walletd* is not running before you start *dynge-Nest*
 
 ### Mac
 
-1. Go [here](https://github.com/fredenrg/FRED-Nest/releases) and download the latest release called **FRED-Nest-x.xx-Mac.zip**.
+1. Go [here](https://github.com/Tarmgas/dynge-Nest/releases) and download the latest release called **dynge-Nest-x.xx-Mac.zip**.
 2. Unzip it and move the folder wherever you want or drag the application **FRED-Nest** into /Applications or any other folder.
 3. Launch the application. (If your mac complains that the app comes from an unindentified developer and does not want to open it, just right-click (or ctrl-click) on the app, and choose open > open)
 
 Important notes:
 
 * The wallets you create or generate will be saved to your home folder. You can keep them there or move them wherever you want.
-* Make sure *FRED-walletd* is not running before you start *FRED-Nest*.
+* Make sure *dynge-walletd* is not running before you start *FRED-Nest*.
 * If you encounter crashes, open the activity monitor (in your app > utilities), and force quit *FRED-walletd* (if it is running) before opening a wallet.
 * The log files will be saved in ~/Library/Application Support/FRED-Nest/.
 
 ### Linux
 
-1. Go [here](https://github.com/fredenrg/FRED-Nest/releases) and download the latest release called **FRED-Nest-x.xx-Linux.tar.gz**
+1. Go [here](https://github.com/Tarmgas/dynge-Nest/releases) and download the latest release called **FRED-Nest-x.xx-Linux.tar.gz**
 2. extract it
 `$ tar xvzf FRED-Nest-x.xx-Linux.tar.gz`
 3. run **FRED-Nest.sh**. (Make sure you leave everything as is in the folder)
 
 Important notes:
 
-* Make sure *FRED-walletd* is not running before you start *FRED-Nest*
+* Make sure *dynge-walletd* is not running before you start *FRED-Nest*
 * If you want the *copy address to clipboard* button to work, install *xclip* or *xsel* (on Debian/Ubuntu: `$ sudo apt install xclip`).
 * If you encounter crashes, open an activity monitor (e.g. `$ htop`), and quit *turtle-service* (if it is running) before opening a wallet. (this bug is being worked on)
 

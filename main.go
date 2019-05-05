@@ -1,13 +1,14 @@
 // Copyright (c) 2018, The TurtleCoin Developers
 // Copyright (c) 2018, The FRED Project
+// Copyright (c) 2019, The DYNGE Project
 // Please see the included LICENSE file for more information.
 //
 
 package main
 
 import (
-	"FRED-Nest/turtlecoinwalletdrpcgo"
-	"FRED-Nest/walletdmanager"
+	"DYNGE-Nest/turtlecoinwalletdrpcgo"
+	"DYNGE-Nest/walletdmanager"
 	"encoding/csv"
 	"encoding/json"
 	"io"
@@ -45,7 +46,7 @@ var (
 	useCheckpoints              = true
 	displayFiatConversion       = false
 	stringBackupKeys            = ""
-	rateUSDTRTL                 float64 // USD value for 1 FRED
+	rateUSDTRTL                 float64 // USD value for 1 DYNGE
 	customRemoteDaemonAddress   = defaultRemoteDaemonAddress
 	customRemoteDaemonPort      = defaultRemoteDaemonPort
 	limitDisplayedTransactions  = true
@@ -80,7 +81,7 @@ func main() {
 			log.Fatal(err)
 		}
 		pathToHomeDir = usr.HomeDir
-		pathToAppFolder := pathToHomeDir + "/Library/Application Support/FRED-Nest"
+		pathToAppFolder := pathToHomeDir + "/Library/Application Support/DYNGE-Nest"
 		os.Mkdir(pathToAppFolder, os.ModePerm)
 		pathToDB = pathToAppFolder + "/" + pathToDB
 
@@ -316,7 +317,7 @@ func getAndDisplayListTransactions(forceFullUpdate bool) {
 					amountString += "- "
 					amountString += strconv.FormatFloat(-amount, 'f', -1, 64)
 				}
-				amountString += " FRED (fee: " + strconv.FormatFloat(transfer.Fee, 'f', 2, 64) + ")"
+				amountString += " DYNGE (fee: " + strconv.FormatFloat(transfer.Fee, 'f', 2, 64) + ")"
 				confirmationsString := confirmationsStringRepresentation(transfer.Confirmations)
 				timeString := transfer.Timestamp.Format("2006-01-02 15:04:05")
 				transactionNumberString := strconv.Itoa(transactionNumber) + ")"
@@ -360,7 +361,7 @@ func transfer(transferAddress string, transferAmount string, transferPaymentID s
 	getAndDisplayBalances()
 	qmlBridge.ClearTransferAmount()
 	qmlBridge.FinishedSendingTransaction()
-	qmlBridge.DisplayPopup("FRED's sent successfully", 4000)
+	qmlBridge.DisplayPopup("DYNGE sent successfully", 4000)
 }
 
 func optimizeWalletWithFusion() {
@@ -493,12 +494,12 @@ func getFullBalanceAndDisplayInTransferAmount(transferFee string) {
 	if err != nil {
 		qmlBridge.DisplayErrorDialog("Error calculating full balance minus fee.", err.Error())
 	}
-	qmlBridge.DisplayFullBalanceInTransferAmount(humanize.FtoaWithDigits(availableBalance, 9))
+	qmlBridge.DisplayFullBalanceInTransferAmount(humanize.FtoaWithDigits(availableBalance, 2))
 }
 
 func getDefaultFeeAndDisplay() {
 
-	qmlBridge.DisplayDefaultFee(humanize.FtoaWithDigits(walletdmanager.DefaultTransferFee, 9))
+	qmlBridge.DisplayDefaultFee(humanize.FtoaWithDigits(walletdmanager.DefaultTransferFee, 2))
 }
 
 func getNodeFeeAndDisplay() {
@@ -507,7 +508,7 @@ func getNodeFeeAndDisplay() {
 	if err != nil {
 		qmlBridge.DisplayNodeFee("-")
 	} else {
-		qmlBridge.DisplayNodeFee(humanize.FtoaWithDigits(nodeFee, 9))
+		qmlBridge.DisplayNodeFee(humanize.FtoaWithDigits(nodeFee, 2))
 	}
 }
 
@@ -679,7 +680,7 @@ func getAndDisplayListRemoteNodes() {
 				} else {
 					nodeNameAndFee += humanize.FtoaWithDigits(feeAmount, 2)
 				}
-				nodeNameAndFee += " FRED)"
+				nodeNameAndFee += " DYNGE)"
 				qmlBridge.ChangeTextRemoteNode(theIndex, nodeNameAndFee)
 			}()
 		}

@@ -1,5 +1,6 @@
 // Copyright (c) 2018, The TurtleCoin Developers
 // Copyright (c) 2018, The FRED Project
+// Copyright (c) 2018, The DYNGE Project
 //
 // Please see the included LICENSE file for more information.
 //
@@ -7,7 +8,7 @@
 package main
 
 import (
-	"FRED-Nest/walletdmanager"
+	"DYNGE-Nest/walletdmanager"
 
 	"github.com/atotto/clipboard"
 	_ "github.com/mattn/go-sqlite3"

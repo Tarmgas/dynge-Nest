@@ -1,5 +1,6 @@
 // Copyright (c) 2018, The TurtleCoin Developers
 // Copyright (c) 2018, The The FRED Project
+// Copyright (c) 2018, The The DYNGE Project
 //
 // Please see the included LICENSE file for more information.
 //
@@ -676,7 +677,7 @@ Rectangle {
                 onTextChanged: {
                     buttonSend.enabled = textInputTransferAmount.text != "" && textInputTransferAddress.text != ""
                     /* Disable payment ID input if integrated address */
-                    textInputTransferPaymentID.enabled = textInputTransferAddress.text.length != 189
+                    textInputTransferPaymentID.enabled = textInputTransferAddress.text.length != 186
                 }
             }
         }

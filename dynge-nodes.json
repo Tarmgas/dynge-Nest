@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {
+      "name": "'Dynge 1' public node",
+      "url": "dyngepeng.zapto.org",
+      "port": 7776,
+      "ssl": false
+    },
+    {
+      "name": "'Dynge 2' public node",
+      "url": "http://poolice.sytes.net/",
+      "port": 7771,
+      "ssl": false
+    }
+  ]
+}
