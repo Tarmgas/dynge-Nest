@@ -20,33 +20,33 @@ Important notes:
 ### Mac
 
 1. Go [here](https://github.com/Tarmgas/dynge-Nest/releases) and download the latest release called **dynge-Nest-x.xx-Mac.zip**.
-2. Unzip it and move the folder wherever you want or drag the application **FRED-Nest** into /Applications or any other folder.
+2. Unzip it and move the folder wherever you want or drag the application **DYNGE-Nest** into /Applications or any other folder.
 3. Launch the application. (If your mac complains that the app comes from an unindentified developer and does not want to open it, just right-click (or ctrl-click) on the app, and choose open > open)
 
 Important notes:
 
 * The wallets you create or generate will be saved to your home folder. You can keep them there or move them wherever you want.
-* Make sure *dynge-walletd* is not running before you start *FRED-Nest*.
-* If you encounter crashes, open the activity monitor (in your app > utilities), and force quit *FRED-walletd* (if it is running) before opening a wallet.
-* The log files will be saved in ~/Library/Application Support/FRED-Nest/.
+* Make sure *dynge-walletd* is not running before you start *DYNGE-Nest*.
+* If you encounter crashes, open the activity monitor (in your app > utilities), and force quit *DYNGE-walletd* (if it is running) before opening a wallet.
+* The log files will be saved in ~/Library/Application Support/DYNGE-Nest/.
 
 ### Linux
 
-1. Go [here](https://github.com/Tarmgas/dynge-Nest/releases) and download the latest release called **FRED-Nest-x.xx-Linux.tar.gz**
+1. Go [here](https://github.com/Tarmgas/dynge-Nest/releases) and download the latest release called **DYNGE-Nest-x.xx-Linux.tar.gz**
 2. extract it
-`$ tar xvzf FRED-Nest-x.xx-Linux.tar.gz`
-3. run **FRED-Nest.sh**. (Make sure you leave everything as is in the folder)
+`$ tar xvzf DYNGE-Nest-x.xx-Linux.tar.gz`
+3. run **DYNGE-Nest.sh**. (Make sure you leave everything as is in the folder)
 
 Important notes:
 
-* Make sure *dynge-walletd* is not running before you start *FRED-Nest*
+* Make sure *dynge-walletd* is not running before you start *DYNGE-Nest*
 * If you want the *copy address to clipboard* button to work, install *xclip* or *xsel* (on Debian/Ubuntu: `$ sudo apt install xclip`).
 * If you encounter crashes, open an activity monitor (e.g. `$ htop`), and quit *turtle-service* (if it is running) before opening a wallet. (this bug is being worked on)
 
 ## Upgrade
 
 Just download the new release and follow the same steps as [Installation](#installation).
-If you are on Windows or Linux, move your wallets (.wallet) and settings.db files from the old Nest folder to the new. Then you can delete the old folder. (on Mac, you do not need to move the settings.db file as it stays in ~/Library/Application Support/FRED-Nest/).
+If you are on Windows or Linux, move your wallets (.wallet) and settings.db files from the old Nest folder to the new. Then you can delete the old folder. (on Mac, you do not need to move the settings.db file as it stays in ~/Library/Application Support/DYNGE-Nest/).
 
 ## Screenshots
 
@@ -86,14 +86,14 @@ TRTLv3jzutiQwqHL3qFwsu5EVLWesxZr1AFQ4AuMR3SD56n3rkHDkwj79eKwvaiU1nYQWGydKoXM6fXy
 6. Type the following commands to clone the Nest wallet, install dependencies and build the wallet.
     ```
     $ cd $HOME/go/src
-    $ git clone https://github.com/fredenrg/FRED-Nest.git FRED-Nest
+    $ git clone https://github.com/Tarmgas/DYNGE-Nest.git DYNGE-Nest
     $ go get -v github.com/atotto/clipboard github.com/dustin/go-humanize github.com/mattn/go-sqlite3 github.com/mcuadros/go-version github.com/mitchellh/go-ps github.com/pkg/errors
-    $ cd FRED-Nest
+    $ cd DYNGE-Nest
     $ qtdeploy build desktop
     ```
 
 1. The app folder is in deploy/linux/
-1. Include the latest _FREDdaemon_ and _FRED-walletd_ builds in the app folder
+1. Include the latest _DYNGEdaemon_ and _DYNGE-walletd_ builds in the app folder
 
 ### Windows - Mac
 
@@ -110,6 +110,6 @@ TRTLv3jzutiQwqHL3qFwsu5EVLWesxZr1AFQ4AuMR3SD56n3rkHDkwj79eKwvaiU1nYQWGydKoXM6fXy
 
 1. The app folder is in deploy/*your os*/
 
-1. Include the latest _FREDdaemon_ and _FRED-walletd_ builds in:
+1. Include the latest _DYNGEdaemon_ and _DYNGE-walletd_ builds in:
     * Windows: in the app folder
-    * Mac: in FRED-Nest.app/Contents/
+    * Mac: in DYNGE-Nest.app/Contents/
