@@ -30,7 +30,7 @@ type Transfer struct {
 	IsRecievingTransaction bool
 }
 
-var divisor float64 = 1000000000;
+var divisor float64 = 100;
 
 var (
 	rpcURL = "http://127.0.0.1:7772/json_rpc"

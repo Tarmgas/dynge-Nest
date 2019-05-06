@@ -110,6 +110,6 @@ TRTLv3jzutiQwqHL3qFwsu5EVLWesxZr1AFQ4AuMR3SD56n3rkHDkwj79eKwvaiU1nYQWGydKoXM6fXy
 
 1. The app folder is in deploy/*your os*/
 
-1. Include the latest _DYNGEdaemon_ and _DYNGE-walletd_ (rename dynge-service to DYNGE-walletd) builds in:
+1. Include the latest _DYNGEdaemon_ (rename Dynged to DYNGEdaemon) and _DYNGE-walletd_ (rename dynge-service to DYNGE-walletd) builds in:
     * Windows: in the app folder
     * Mac: in DYNGE-Nest.app/Contents/
