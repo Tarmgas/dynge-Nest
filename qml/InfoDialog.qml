@@ -1,4 +1,5 @@
 // Copyright (c) 2018, The TurtleCoin Developers
+// Copyright (c) 2019, The DyngeCoin Developers
 //
 // Please see the included LICENSE file for more information.
 //
@@ -17,8 +18,8 @@ Dialog {
     standardButtons: StandardButton.Ok
     width: 900
 
-    property var addressDev: "fEnrgyRz77jYYPNthjfvfkNGzgCe555gF2ET7ZcQVe4dYjg256YS3pcQucq46HG6ucLK2ffBJninSckGVN23ibePfHh3R4iDtdh3B"
-    property var websiteChat: "https://discord.gg/uhAjg9w"
+    property var addressDev: "das1U7qRq6H9xrrRWd9TRASg2stj28DTrjcaP7z7bDR1QPvpcpLNa5y6zBbfNWeict7byWka8urtBhySXGyyviJQ8iy5Kunu9w"
+    property var websiteChat: "https://discordapp.com/invite/Q4r2DdE"
     property var versionNest: ""
     property var newVersionNestAvailable: ""
     property var urlNewVersionNest: ""
