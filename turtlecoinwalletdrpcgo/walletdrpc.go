@@ -33,7 +33,7 @@ type Transfer struct {
 var divisor float64 = 1000000000;
 
 var (
-	rpcURL = "http://127.0.0.1:7771/json_rpc"
+	rpcURL = "http://127.0.0.1:7772/json_rpc"
 )
 
 // RequestBalance provides the available and locked balances of the current wallet
