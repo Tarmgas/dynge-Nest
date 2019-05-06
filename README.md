@@ -101,7 +101,7 @@ TRTLv3jzutiQwqHL3qFwsu5EVLWesxZr1AFQ4AuMR3SD56n3rkHDkwj79eKwvaiU1nYQWGydKoXM6fXy
 
 1. Install this binding: https://github.com/therecipe/qt (installation instructions at https://github.com/therecipe/qt/wiki/Installation)
 
-1. Insall Go libraries (in console or terminal):
+1. Install Go libraries (in console or terminal):
     ```
     $ go get github.com/atotto/clipboard github.com/dustin/go-humanize github.com/mattn/go-sqlite3 github.com/mcuadros/go-version github.com/mitchellh/go-ps github.com/pkg/errors
     ```
@@ -110,6 +110,6 @@ TRTLv3jzutiQwqHL3qFwsu5EVLWesxZr1AFQ4AuMR3SD56n3rkHDkwj79eKwvaiU1nYQWGydKoXM6fXy
 
 1. The app folder is in deploy/*your os*/
 
-1. Include the latest _DYNGEdaemon_ and _DYNGE-walletd_ builds in:
+1. Include the latest _DYNGEdaemon_ and _DYNGE-walletd_ (rename dynge-service to DYNGE-walletd) builds in:
     * Windows: in the app folder
     * Mac: in DYNGE-Nest.app/Contents/

@@ -25,7 +25,7 @@ ApplicationWindow {
     minimumWidth: windowWidth
     minimumHeight: minWindowHeight
     color: "#333333"
-    title: "FRED Nest"
+    title: "DYNGE Nest"
     visible: true
 
     Flickable{

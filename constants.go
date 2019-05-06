@@ -18,6 +18,6 @@ const (
 	// default remote node
 	defaultRemoteDaemonAddress = "dyngepeng.zapto.org"
 	defaultRemoteDaemonPort    = "7776"
-	defaultRemoteDaemonName    = "pnode.fredcoinpool.com"
+	defaultRemoteDaemonName    = "dyngepeng.zapto.org"
 	defaultRemoteDaemonSSL     = false
 )
