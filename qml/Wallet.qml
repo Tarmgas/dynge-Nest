@@ -19,7 +19,7 @@ Rectangle {
     anchors.verticalCenter: parent.verticalCenter
     width: parent.width
     height: parent.height
-    color: "#333333"
+    color: "#945d25"
     visible: false
 
     Rectangle {
