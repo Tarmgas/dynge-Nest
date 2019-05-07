@@ -25,7 +25,7 @@ ApplicationWindow {
     height: windowHeight
     minimumWidth: windowWidth
     minimumHeight: minWindowHeight
-    color: "#66411a"
+    color: "#945d25"
     title: "DYNGE Nest"
     visible: true
 

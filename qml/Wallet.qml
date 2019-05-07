@@ -424,7 +424,7 @@ Rectangle {
 
         Text {
             id: textHistoryTitle
-            color: "#ffffff"
+            color: "#fffffa"
             text: "PREVIOUS TRANSACTIONS"
             anchors.top: parent.top
             anchors.topMargin: 10
