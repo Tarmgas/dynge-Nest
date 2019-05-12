@@ -55,7 +55,7 @@ var (
 	urlNewVersion               = ""
 )
 
-var formatMask = "#,###.#########";
+var formatMask = "#,###.##";
 
 func main() {
 
