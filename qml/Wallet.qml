@@ -1,6 +1,6 @@
 // Copyright (c) 2018, The TurtleCoin Developers
 // Copyright (c) 2018, The The FRED Project
-// Copyright (c) 2019, The The DYNGE Project
+// Copyright (c) 2019, The The DYNGEcoin Project
 //
 // Please see the included LICENSE file for more information.
 //
@@ -285,7 +285,7 @@ Rectangle {
 
         Text {
             id: textDescrWalletName
-            color: "#858585"
+            color: "#fefefe"
             text: "Wallet: "
             verticalAlignment: Text.AlignBottom
             anchors.left: parent.left
@@ -299,7 +299,7 @@ Rectangle {
 
         Text {
             id: textWalletName
-            color: "#858585"
+            color: "#fefefe"
             text: ""
             verticalAlignment: Text.AlignBottom
             anchors.left: textDescrWalletName.right
@@ -397,7 +397,7 @@ Rectangle {
 
         Text {
             id: textDescrCopyAddress
-            color: "#858585"
+            color: "#fefefe"
             text: "Copy your address to receive DYNGE"
             anchors.verticalCenter: buttonCopy.verticalCenter
             anchors.right: buttonCopy.left

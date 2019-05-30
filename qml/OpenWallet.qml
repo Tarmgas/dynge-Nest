@@ -1,6 +1,6 @@
 // Copyright (c) 2018, The TurtleCoin Developers
 // Copyright (c) 2018, The The FRED Project
-// Copyright (c) 2018, The DyngeCoin Developers
+// Copyright (c) 2019, The DyngeCoin Developers
 //
 // Please see the included LICENSE file for more information.
 //

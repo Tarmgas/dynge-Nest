@@ -1,6 +1,6 @@
 // Copyright (c) 2018, The TurtleCoin Developers
 // Copyright (c) 2018, The The FRED Project
-// Copyright (c) 2018, The DYNGECoin Developers
+// Copyright (c) 2019, The DYNGECoin Developers
 //
 // Please see the included LICENSE file for more information.
 //
@@ -25,8 +25,8 @@ ApplicationWindow {
     height: windowHeight
     minimumWidth: windowWidth
     minimumHeight: minWindowHeight
-    color: "#945d25"
-    title: "DYNGE Nest"
+    color: "#000000"
+    title: "DYNGEcoin Nest"
     visible: true
 
     Flickable{
