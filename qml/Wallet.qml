@@ -19,7 +19,7 @@ Rectangle {
     anchors.verticalCenter: parent.verticalCenter
     width: parent.width
     height: parent.height
-    color: "#945d25"
+    color: "#523314"
     visible: false
 
     Rectangle {
@@ -454,7 +454,7 @@ Rectangle {
 
         Rectangle {
             id: rectangleListTransactions
-            color: "#2b2b2b"
+            color: "#FFC0CB"
             radius: 11
             anchors.bottom: parent.bottom
             anchors.bottomMargin: 10
