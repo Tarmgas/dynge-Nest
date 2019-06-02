@@ -454,7 +454,7 @@ Rectangle {
 
         Rectangle {
             id: rectangleListTransactions
-            color: "#FFC0CB"
+            color: "#111111"
             radius: 11
             anchors.bottom: parent.bottom
             anchors.bottomMargin: 10
