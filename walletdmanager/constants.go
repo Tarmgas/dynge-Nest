@@ -10,7 +10,7 @@ package walletdmanager
 
 const (
 	// DefaultTransferFee is the default fee. It is expressed in DYNGE
-	DefaultTransferFee float64 = 0.1
+	DefaultTransferFee float64 = 0.01
 
 	logWalletdCurrentSessionFilename     = "DYNGE-walletd-session.log"
 	logWalletdAllSessionsFilename        = "DYNGE-walletd.log"
