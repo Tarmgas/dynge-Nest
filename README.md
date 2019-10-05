@@ -83,6 +83,8 @@ TRTLv3jzutiQwqHL3qFwsu5EVLWesxZr1AFQ4AuMR3SD56n3rkHDkwj79eKwvaiU1nYQWGydKoXM6fXy
     CGO_CFLAGS_ALLOW=".*"
     ```
 5. Follow the instructions present [here](https://github.com/therecipe/qt/wiki/Installation-on-Linux) till **Run the setup** to install Qt which is the most important binding required to build Nest.
+if you can' find qmake, run this in terminal:     apt install cmake gcc g++ qt4-qmake
+
 6. Type the following commands to clone the Nest wallet, install dependencies and build the wallet.
     ```
     $ cd $HOME/go/src
