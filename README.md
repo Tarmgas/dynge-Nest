@@ -100,7 +100,7 @@ if you can' find qmake, run this in terminal:     apt install cmake gcc g++ qt4-
 ### Windows - Mac
 
 1. Install Go (https://golang.org/doc/install)
-2. Install GCC (MinGW) https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download?use_mirror=deac-fra&download=&failedmirror=deac-riga.dl.sourceforge.net
+2. Install GCC (MinGW) https://dev.to/gamegods3/how-to-install-gcc-in-windows-10-the-easier-way-422j
 
 1. Install this binding: https://github.com/therecipe/qt (installation instructions at https://github.com/therecipe/qt/wiki/Installation)
 
